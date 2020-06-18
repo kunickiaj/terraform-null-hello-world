@@ -9,8 +9,12 @@ terraform {
   }
 }
 
+provider "null" {
+  version = "~> 2.1"
+}
+
 resource "null_resource" "hello_world" {
   provisioner "local-exec" {
-    command = "/usr/bin/bash -c 'echo hello world!'"
+    command = "echo hello world!"
   }
 }

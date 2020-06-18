@@ -5,13 +5,15 @@ Demo repository for documenting the infrastructure change management workflow
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| null | ~> 2.1 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| null | n/a |
+| null | ~> 2.1 |
 
 ## Inputs
 
