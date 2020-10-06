@@ -4,7 +4,7 @@ terraform {
     organization = "streamsets"
 
     workspaces {
-      name = "terraform-demo"
+      name = "terraform-template"
     }
   }
 }
