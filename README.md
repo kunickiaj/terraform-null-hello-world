@@ -50,21 +50,30 @@ pre-commit init-templatedir -t pre-commit ${DIR}
 
 | Name | Version |
 |------|---------|
-| terraform | >= 0.13 |
-| null | ~> 2.1 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13 |
+| <a name="requirement_null"></a> [null](#requirement\_null) | ~> 2.1 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| null | ~> 2.1 |
+| <a name="provider_null"></a> [null](#provider\_null) | ~> 2.1 |
+
+## Modules
+
+No modules.
+
+## Resources
+
+| Name | Type |
+|------|------|
+| [null_resource.hello_world](https://registry.terraform.io/providers/hashicorp/null/latest/docs/resources/resource) | resource |
 
 ## Inputs
 
-No input.
+No inputs.
 
 ## Outputs
 
-No output.
-
+No outputs.
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
